@@ -1,0 +1,127 @@
+/* D_Fiche-Logement */
+
+.page-presentation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 100px;
+}
+
+.title-lodging-page {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 51px;
+    display: flex;
+    align-items: flex-end;
+    color: #FF6060;
+}
+
+.city-title {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    display: flex;
+    align-items: flex-end;
+    color: #FF6060;
+}
+
+.details {
+    display: flex;
+    width: 90%;
+    margin: 25px auto;
+    justify-content: space-between;
+}
+
+.details-location-profil-stars {
+    text-align: right;
+}
+
+.details-location-profil-stars .stars {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+/* M_Fiche-Logement */
+
+@media (max-width: 768px) {
+    .details {
+        flex-direction: column;
+    }
+    .details-item {
+        width: 100%;
+        margin: 20px 0;
+    }
+    .details-profil {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        align-items: center;
+        margin-top: -15px;
+    }
+}
+
+@media (max-width: 375px) {
+
+.accordion-collapse {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: -20px;
+}
+
+.title-lodging-page {
+    font-size: 18px;
+    line-height: 26px;
+    margin-top: -29px;
+}
+
+.avatar-name p {
+    font-size: 12px;
+    line-height: 17px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.stars img {
+    width: 15px;
+    height: 15px;
+}
+
+.avatar-img img {
+    width: 32px;
+    height: 32px;
+}
+
+.tag-container .tags-content {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 14px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    color: #FFFFFF;
+}
+.city-title {
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 5px;;
+}
+span {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    color: #FF6060;
+}
+}
+

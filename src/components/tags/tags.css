@@ -1,0 +1,41 @@
+.tag-container { 
+    height: 20px;
+    align-items: center;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.tags-content {
+    margin-top: 6px;
+}
+
+.tag-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tag-container .tags-content{
+    margin-right: 20px;
+}
+
+.tag-container .tags-content {
+    width: 115px;
+    height: 25px;
+    border-radius: 10px;
+    background: #FF6060;
+}
+
+@media (max-width: 375px) {
+    .tag-container {
+        display: flex;
+        flex-wrap: nowrap;
+        margin-top: 10px;
+    }
+}
